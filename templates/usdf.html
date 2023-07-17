@@ -1,0 +1,20 @@
+{% load userfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER_DEFINED_FILTER</title>
+</head>
+<body>
+    <Center>
+        <h1>USER_DEFINED_FILTER</h1>
+        <h2>Full Data--- {{data}}</h2>
+        <h2>Swapping--- {{data|swapping}}</h2>
+        <h2>Removing 'I'---- {{data|remove:'i'}}</h2>
+        <h2>{{data|counting:'h'}}</h2>
+
+    </Center>
+    
+</body>
+</html>
